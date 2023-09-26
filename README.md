@@ -12,5 +12,6 @@ Proxy Docker container for TunnelTestEnv scripts
 
 ## References
 
-http://www.squid-cache.org
-https://github.com/egirna/squid/
+Squid official docs: http://www.squid-cache.org
+
+Squid container example: https://github.com/egirna/squid/

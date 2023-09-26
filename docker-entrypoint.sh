@@ -1,1 +1,1 @@
-exec tail -f /var/log/squid/access.log
+tail -f /var/log/squid/access.log
