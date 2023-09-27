@@ -14,6 +14,7 @@ build(){
     --disable-strict-error-checking --enable-ssl --enable-ssl-crtd --with-openssl \
     --enable-auth-basic="DB,fake,getpwnam,LDAP,NCSA,PAM,POP3,RADIUS,SASL,SMB" \
     --enable-auth-ntlm="fake,SMB_LM" --enable-auth-negotiate="kerberos,wrapper" \
+    --disable-arch-native \
     && make \
     && make install \
     && echo "installation complete" \
