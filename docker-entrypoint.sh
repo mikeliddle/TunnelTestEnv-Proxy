@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cat /etc/squid/squid.conf
-exec squid
+squid
 exec tail -f /var/log/squid/access.log
