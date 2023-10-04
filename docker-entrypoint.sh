@@ -1,4 +1,5 @@
 #!/bin/bash
 
 cat /etc/squid/squid.conf
-squid -z -D -N
+squid -z
+squid -NCd1
