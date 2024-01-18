@@ -1,10 +1,10 @@
 #!/bin/bash
 
 download(){
-    wget -O squid.tar.gz http://www.squid-cache.org/Versions/v6/squid-6.3.tar.gz
+    wget -O squid.tar.gz http://www.squid-cache.org/Versions/v6/squid-6.6.tar.gz
     tar -xzf squid.tar.gz
     rm squid.tar.gz
-    cd squid-6.3
+    cd squid-6.6
  }
 
 #configure squid with customized flags
